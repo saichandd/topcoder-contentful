@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<ThemedSection
+  anchor={null}
+  composeAdhocTheme="deeply"
+  composeContextTheme="softly"
+  link={null}
+  mapThemrProps={[Function]}
+  subTitle=""
+  theme={Object {}}
+  themePriority="adhoc-context-default"
+  title="Latest News"
+>
+  <Slider
+    arrows={false}
+    autoplay={false}
+    className=""
+    dots={true}
+    dotsClass=""
+    infinite={false}
+    lazyLoad={true}
+    responsive={
+      Array [
+        Object {
+          "breakpoint": 1024,
+          "settings": Object {
+            "dots": true,
+            "slidesToShow": 3,
+          },
+        },
+        Object {
+          "breakpoint": 768,
+          "settings": "unslick",
+        },
+      ]
+    }
+    slidesToScroll={1}
+    slidesToShow={3}
+  >
+    <div
+      className=""
+      data-index={0}
+    >
+      <ThemedArticleCard
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        imageSrc="/community-app-assets/themes/common/NewsSection/news-01.jpg"
+        link={
+          Object {
+            "title": "Read More",
+            "url": "http",
+          }
+        }
+        mapThemrProps={[Function]}
+        text="description"
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="title"
+      />
+    </div>
+  </Slider>
+</ThemedSection>
+`;
+
+exports[`Matches shallow shapshot 2`] = `null`;

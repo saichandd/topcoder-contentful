@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot match 1`] = `
+<main>
+  <ThemedBanner
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    imageSrc="/community-app-assets/themes/wipro/learn/banner.jpg"
+    link={null}
+    mapThemrProps={[Function]}
+    text="Our continuously evolving structured learning paths are customized to deepen your knowledge and help you acquire industry specific software capabilities. Master the in-demand technologies to succeed in this rapidly changing technology landscape."
+    theme={
+      Object {
+        "container": "src-shared-components-tc-communities-communities-wipro-Learn-style___bannerContainer___1MiM0E",
+        "content": "src-shared-components-tc-communities-communities-wipro-Learn-style___bannerContent___2rbyc6",
+        "contentInner": "src-shared-components-tc-communities-communities-wipro-Learn-style___bannerContentInner___4smdOr",
+      }
+    }
+    themePriority="adhoc-context-default"
+    title="Learn and earn rewards"
+  />
+  <ThemedSection
+    anchor={null}
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    link={null}
+    mapThemrProps={[Function]}
+    subTitle=""
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+    title={null}
+  >
+    <div
+      className="src-shared-components-tc-communities-communities-wipro-Learn-___style__message___WgkPL"
+    >
+      <p>
+        To access the TopGear
+        <span
+          className="src-shared-components-tc-communities-communities-wipro-Learn-___style__highlighted___3U2lK"
+        >
+          Learning
+        </span>
+         
+        Platform, click on “
+        <strong>
+          CONTINUE
+        </strong>
+        ”.
+      </p>
+      <p
+        className="src-shared-components-tc-communities-communities-wipro-Learn-___style__button-container___10Uat"
+      >
+        <ThemedButton
+          active={false}
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          disabled={false}
+          enforceA={false}
+          mapThemrProps={[Function]}
+          onClick={null}
+          onMouseDown={null}
+          openNewTab={true}
+          replace={false}
+          size={null}
+          themePriority="adhoc-context-default"
+          to="https://topgear-app.wipro.com"
+          type="button"
+        >
+          Continue
+        </ThemedButton>
+      </p>
+    </div>
+  </ThemedSection>
+</main>
+`;

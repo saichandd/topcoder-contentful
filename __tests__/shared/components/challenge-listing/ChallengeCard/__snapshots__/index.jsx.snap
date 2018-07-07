@@ -1,0 +1,116 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot shapshot 1 1`] = `
+<ChallengeCard
+  challenge={
+    Object {
+      "allPhases": Array [
+        Object {
+          "phaseStatus": "Open",
+          "phaseType": "Registration",
+        },
+      ],
+      "currentPhases": Array [
+        "Registration",
+      ],
+      "events": Array [
+        Object {
+          "eventName": "Submit",
+        },
+      ],
+      "isDataScience": true,
+      "prize": Array [
+        1200,
+        600,
+      ],
+      "prizes": Array [
+        1200,
+        600,
+      ],
+      "status": "ACTIVE",
+      "subTrack": "CODE",
+      "technologies": "Data Science",
+      "totalPrize": 1800,
+      "track": "DEVELOP",
+      "users": Object {},
+    }
+  }
+  expandTag={null}
+  expandedTags={Array []}
+  newChallengeDetails={false}
+  onTechTagClicked={[Function]}
+  openChallengesInNewTabs={false}
+  prizeMode="money-usd"
+  userHandle=""
+/>
+`;
+
+exports[`Matches shallow shapshot shapshot 2 1`] = `
+<ChallengeCard
+  challenge={
+    Object {
+      "allPhases": Array [
+        Object {
+          "phaseStatus": "Open",
+          "phaseType": "Submit",
+        },
+      ],
+      "currentPhases": Array [
+        "Registration",
+      ],
+      "id": "1",
+      "prizes": Array [
+        1200,
+        600,
+      ],
+      "subTrack": "CODE",
+      "technologies": "Go",
+      "totalPrize": 1800,
+      "track": "DATA_SCIENCE",
+      "users": Object {},
+    }
+  }
+  expandTag={null}
+  expandedTags={Array []}
+  newChallengeDetails={false}
+  onTechTagClicked={[Function]}
+  openChallengesInNewTabs={false}
+  prizeMode="money-usd"
+  userHandle=""
+/>
+`;
+
+exports[`Matches shallow shapshot shapshot 3 1`] = `
+<ChallengeCard
+  challenge={
+    Object {
+      "allPhases": Array [
+        Object {
+          "phaseStatus": "Closed",
+          "phaseType": "Registration",
+        },
+      ],
+      "currentPhases": Array [
+        "Registration",
+      ],
+      "id": "long id",
+      "prizes": Array [
+        1200,
+        600,
+      ],
+      "subTrack": "CODE",
+      "technologies": "",
+      "totalPrize": 1800,
+      "track": "DATA_SCIENCE",
+      "users": Object {},
+    }
+  }
+  expandTag={null}
+  expandedTags={Array []}
+  newChallengeDetails={false}
+  onTechTagClicked={[Function]}
+  openChallengesInNewTabs={false}
+  prizeMode="money-usd"
+  userHandle=""
+/>
+`;

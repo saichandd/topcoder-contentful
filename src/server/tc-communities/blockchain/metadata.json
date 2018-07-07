@@ -1,0 +1,34 @@
+{
+  "challengeFilter": {
+    "groupIds": ["20000010"],
+    "or": [{
+      "tags": ["Blockchain", "Ethereum"]
+    }]
+  },
+  "communityId": "blockchain",
+  "communityName": "Blockchain Community",
+  "groupIds": ["20000010"],
+  "hideSearch": true,
+  "logos": [{
+    "img": "/community-app-assets/themes/blockchain/logo_topcoder_with_name.svg",
+    "url": "https://www.topcoder.com"
+  }],
+  "menuItems": [{
+    "title": "Home",
+    "url": "/"
+  }, {
+    "title": "BSIC Incubator",
+    "url": "/bsic-incubator"
+  }, {
+    "title": "Learn",
+    "url": "/learn"
+  }, {
+    "title": "Challenges",
+    "url": "/challenges"
+  }],
+  "leaderboardApiUrl": "https://api.topcoder.com/v4/looks/458/run/json/",
+  "newsFeed": "http://www.topcoder.com/feed",
+  "subdomains": ["blockchain"],
+  "description": "Learn about and build the next great decentralized application (DApp) on the Ethereum platform.",
+  "image": "blockchain.jpg"
+}

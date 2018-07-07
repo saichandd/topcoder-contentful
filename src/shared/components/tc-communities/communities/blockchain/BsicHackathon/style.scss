@@ -1,0 +1,136 @@
+@import "../themes/mixins";
+
+/* GENERIC CONTENT */
+
+.h1 { @include h1; }
+
+.contentBlock {
+  @include body-text;
+
+  margin: 60px auto 0;
+  max-width: $screen-md;
+  overflow: hidden;
+  padding: 0 30px;
+
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+
+  &.twoColumns {
+    align-items: flex-start;
+    display: flex;
+
+    @include xs-to-sm {
+      flex-direction: column;
+    }
+  }
+}
+
+/* HEAD BANNER */
+
+$bannerBackgroundColor: #131a24;
+
+.bannerContainer {
+  background: $bannerBackgroundColor;
+}
+
+.bannerImage {
+  width: 100%;
+}
+
+.bannerContent {
+  margin: auto;
+  max-width: $screen-md;
+  position: relative;
+  width: 100%;
+}
+
+.bannerMaskLeft {
+  background: linear-gradient(90deg, $bannerBackgroundColor 0%, transparent 100%);
+  bottom: 0;
+  position: absolute;
+  top: 0;
+  width: 100px;
+
+  @include xs-to-md {
+    display: none;
+  }
+}
+
+.bannerMaskRight {
+  background: linear-gradient(270deg, $bannerBackgroundColor 50%, transparent 100%);
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+
+  @include xs-to-md {
+    display: none;
+  }
+}
+
+/* FACTS */
+
+.facts {
+  color: $tc-black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &.wide {
+    justify-content: space-between;
+  }
+
+  :first-child {
+    margin-left: 0;
+  }
+
+  :last-child {
+    margin-right: 0;
+  }
+
+  > * {
+    font: 28px 'Open Sans', sans-serif;
+    line-height: 1.2;
+    margin: 20px;
+  }
+}
+
+/* CHALLENGES */
+
+.challengesContainer {
+  background: $tc-gray-neutral-dark;
+  margin-top: 60px;
+  padding: 60px 30px;
+}
+
+.challengesContent {
+  @include body-text;
+
+  margin: auto;
+  max-width: $screen-md;
+  padding: 0 30px;
+  text-align: center;
+}
+
+.challengeCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.paragraph {
+  margin-bottom: 10px;
+}
+
+.regButtonsW {
+  width: 300px;
+}
+
+.faq {
+  margin: 30px auto 0;
+  max-width: $screen-md;
+  padding: 0 30px;
+}

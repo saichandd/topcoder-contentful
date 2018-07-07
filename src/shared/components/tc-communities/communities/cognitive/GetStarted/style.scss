@@ -1,0 +1,65 @@
+@import '../themes/mixins';
+
+/* Page title. */
+
+.pageTitle {
+  @include tc-title;
+
+  margin: 163px auto 50px;
+  max-width: $screen-lg;
+  padding: 0 40px;
+  text-align: center;
+}
+
+/* Cards */
+
+.cardsContainer {
+  @include container;
+
+  padding-bottom: 50px;
+}
+
+.cardContainer {
+  justify-content: space-between;
+  margin: auto;
+  max-width: $screen-lg;
+  padding: 50px 0;
+
+  @include xs-to-sm {
+    &:first-child {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.cardContent {
+  padding: 0 0 50px;
+  width: calc(50% - 40px);
+
+  @include xs-to-sm {
+    width: 100%;
+  }
+}
+
+.cardHeading {
+  @include tc-heading-xl;
+
+  margin-bottom: 10px;
+}
+
+.cardImage {
+  border-radius: 6px;
+  min-height: 324px;
+
+  @include xs-to-sm {
+    margin-bottom: 20px;
+  }
+}
+
+.cardButton {
+  margin: 40px 0 0 !important;
+}
+
+.cardText {
+  @include tc-body-md;
+}

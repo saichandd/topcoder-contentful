@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<div
+  className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__ChallengeSearchBar___fvE3o"
+>
+  <input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder=""
+    type="text"
+    value="query"
+  />
+  <span
+    className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__SearchButton___3GzR0 src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__active___8LjMb"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+  >
+    <ZoomIcon
+      className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__zoomIcon___3d_cL"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+  </span>
+</div>
+`;
+
+exports[`Matches shallow shapshot 2`] = `
+<div
+  className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__ChallengeSearchBar___fvE3o"
+>
+  <input
+    onChange={[Function]}
+    onKeyPress={[Function]}
+    placeholder=""
+    type="text"
+    value=""
+  />
+  <span
+    className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__SearchButton___3GzR0"
+    onClick={[Function]}
+    onKeyPress={[Function]}
+  >
+    <ZoomIcon
+      className="src-shared-components-challenge-listing-Filters-ChallengeSearchBar-___style__zoomIcon___3d_cL"
+      height="16"
+      viewBox="0 0 16 16"
+      width="16"
+      xmlns="http://www.w3.org/2000/svg"
+    />
+  </span>
+</div>
+`;

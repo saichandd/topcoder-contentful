@@ -1,0 +1,428 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot match 1`] = `
+<main>
+  <ThemedBanner
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    imageSrc="/community-app-assets/themes/demo-expert/learn/banner.jpg"
+    link={null}
+    mapThemrProps={[Function]}
+    text="Our continuously evolving structured learning paths, constantly abreast of the latest, tailored for employees to deepen your knowledge, infuses important software capabilities that are industry specific and help you get the skills you need to succeed."
+    theme={
+      Object {
+        "container": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___bannerContainer___1FmI8w",
+        "content": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___bannerContent___2geagk",
+        "contentInner": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___bannerContentInner___1RtLFN",
+      }
+    }
+    themePriority="adhoc-context-default"
+    title="Learning & Certification"
+  />
+  <ThemedSection
+    anchor={null}
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    link={null}
+    mapThemrProps={[Function]}
+    subTitle=""
+    theme={
+      Object {
+        "container": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___learnBasicsContainer___aCUEb1",
+      }
+    }
+    themePriority="adhoc-context-default"
+    title="Learn The Basics"
+  >
+    <ThemedAccordion
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      defaultSelectedIndex={0}
+      mapThemrProps={[Function]}
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+    >
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="Joining the  Community"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <div
+            className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnowWrap___2oj4B"
+          >
+            <Link
+              className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnow___1hSrZ"
+              replace={false}
+              to="learn"
+            >
+              Join Now
+            </Link>
+          </div>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="How to sign up for work"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="How to compete for work"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <div
+            className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnowWrap___2oj4B"
+          >
+            <Link
+              className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnow___1hSrZ"
+              replace={false}
+              to="learn"
+            >
+              Join Now
+            </Link>
+          </div>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="Payment & Rewards"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="Managing your Certifications"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+          <div
+            className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnowWrap___2oj4B"
+          >
+            <Link
+              className="src-shared-components-tc-communities-communities-demo-expert-Learn-___style__joinnow___1hSrZ"
+              replace={false}
+              to="learn"
+            >
+              Join Now
+            </Link>
+          </div>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="Managing your Badges"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+        </ThemedText>
+      </ThemedAccordionItem>
+      <ThemedAccordionItem
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        isOpen={false}
+        mapThemrProps={[Function]}
+        onTitleClick={[Function]}
+        theme={Object {}}
+        themePriority="adhoc-context-default"
+        title="Updating your Profile"
+      >
+        <ThemedText
+          composeAdhocTheme="deeply"
+          composeContextTheme="softly"
+          mapThemrProps={[Function]}
+          theme={Object {}}
+          themePriority="adhoc-context-default"
+        >
+          <p>
+            Nam dapibus nisl vitae elit fringilla rutrum. Aenean sollicitudin, erat a elementum rutrum, neque sem pretium metus, quis mollis nisl nunc et massa. Vestibulum sed metus in lorem tristique ullamcorper id vitae erat. Nulla mollis sapien sollicitudin lacinia lacinia. Vivamus facilisis dolor et massa placerat, at vestibulum nisl egestas. Nullam rhoncus lacus non odio luctus, eu condimentum mauris ultrices. Praesent blandit, augue a posuere aliquam, arcu tortor feugiat turpis,
+          </p>
+        </ThemedText>
+      </ThemedAccordionItem>
+    </ThemedAccordion>
+  </ThemedSection>
+  <ThemedSection
+    anchor={null}
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    link={
+      Object {
+        "title": "View All",
+        "url": "learn",
+      }
+    }
+    mapThemrProps={[Function]}
+    subTitle=""
+    theme={
+      Object {
+        "container": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___coursesContainer___1l39Op",
+      }
+    }
+    themePriority="adhoc-context-default"
+    title="Courses and Tutorials"
+  >
+    <ThemedArticleCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      imageSrc="/community-app-assets/themes/demo-expert/learn/courses-01.jpg"
+      link={
+        Object {
+          "title": "Read More",
+          "url": "learn",
+        }
+      }
+      mapThemrProps={[Function]}
+      text="There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD monitors have"
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="What You Need to Join a Challenge"
+    />
+    <ThemedArticleCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      imageSrc="/community-app-assets/themes/demo-expert/learn/courses-02.jpg"
+      link={
+        Object {
+          "title": "Read More",
+          "url": "learn",
+        }
+      }
+      mapThemrProps={[Function]}
+      text="Planning to visit Las Vegas or any other vacational resort where casinos are a major portion of their business? I have just the thing for"
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="An Ugly Myspace Profile Will Sure Ruin Your Reputation"
+    />
+    <ThemedArticleCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      imageSrc="/community-app-assets/themes/demo-expert/learn/courses-03.jpg"
+      link={
+        Object {
+          "title": "Read More",
+          "url": "learn",
+        }
+      }
+      mapThemrProps={[Function]}
+      text="If you are in the market for a computer, there are a number of factors to consider. Will it be used for your home, your office or"
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="3 Simple Ways Work Fast in Competition"
+    />
+  </ThemedSection>
+  <ThemedSection
+    anchor={null}
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    link={null}
+    mapThemrProps={[Function]}
+    subTitle=""
+    theme={
+      Object {
+        "container": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___resourcesContainer___299NME",
+        "title": "src-shared-components-tc-communities-communities-demo-expert-Learn-style___resourcesTitle___ao4RBY",
+      }
+    }
+    themePriority="adhoc-context-default"
+    title="Resources"
+  >
+    <ThemedLinksCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      links={
+        Array [
+          Object {
+            "title": "Nam dapibus nisl vitae elit fringilla",
+            "url": "learn",
+          },
+          Object {
+            "title": "Aenean sollicitudin",
+            "url": "learn",
+          },
+          Object {
+            "title": "Erat a elementum rutrum",
+            "url": "learn",
+          },
+          Object {
+            "title": "Neque sem pretium metus",
+            "url": "learn",
+          },
+        ]
+      }
+      mapThemrProps={[Function]}
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="Documents"
+    />
+    <ThemedLinksCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      links={
+        Array [
+          Object {
+            "title": "Tristique ullamcorper id vitae",
+            "url": "learn",
+          },
+          Object {
+            "title": "Nulla mollis sapien sollicitudin",
+            "url": "learn",
+          },
+          Object {
+            "title": "Vivamus facilisis dolor et massa",
+            "url": "learn",
+          },
+          Object {
+            "title": "Vestibulum nisl egestas",
+            "url": "learn",
+          },
+        ]
+      }
+      mapThemrProps={[Function]}
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="Videos"
+    />
+    <ThemedLinksCard
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      links={
+        Array [
+          Object {
+            "title": "Nam dapibus nisl vitae elit fringilla",
+            "url": "learn",
+          },
+          Object {
+            "title": "Aenean sollicitudin",
+            "url": "learn",
+          },
+          Object {
+            "title": "Erat a elementum rutrum",
+            "url": "learn",
+          },
+          Object {
+            "title": "Neque sem pretium metus",
+            "url": "learn",
+          },
+        ]
+      }
+      mapThemrProps={[Function]}
+      theme={Object {}}
+      themePriority="adhoc-context-default"
+      title="Useful Links"
+    />
+  </ThemedSection>
+  <ThemedNewsletterSignup
+    apikey=""
+    buttonText="Sign Up"
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    emailPlaceholder="Email address"
+    imageSrc="/community-app-assets/themes/demo-expert/subscribe-bg.jpg"
+    mapThemrProps={[Function]}
+    text="Don’t miss out on the latest Topcoder IOS challenges and information!"
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+    title="Sign up for our newsletter"
+    url=""
+  />
+</main>
+`;

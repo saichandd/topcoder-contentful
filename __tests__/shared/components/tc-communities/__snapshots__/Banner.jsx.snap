@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot match 1`] = `
+<Banner
+  imageSrc="/themes/wipro/home/banner.jpg"
+  link={null}
+  text="You’re eager to get started, and we have a bunch of iOS/Swift challenges!"
+  theme={
+    Object {
+      "container": "src-shared-components-tc-communities-Banner-style___container___2NxGp2",
+      "content": "src-shared-components-tc-communities-Banner-style___content___21lXOu",
+      "contentBg": "src-shared-components-tc-communities-Banner-style___contentBg___145Lnj",
+      "contentInner": "src-shared-components-tc-communities-Banner-style___contentInner___3w8VHp",
+      "text": "src-shared-components-tc-communities-Banner-style___text___-lkXiG",
+      "title": "src-shared-components-tc-communities-Banner-style___title___GMY8Vo",
+    }
+  }
+  title="iOS"
+/>
+`;
+
+exports[`Snapshot match 2`] = `
+<Banner
+  imageSrc="/themes/wipro/home/banner.jpg"
+  link={
+    Object {
+      "title": "Compete Now",
+      "url": "#",
+    }
+  }
+  text="You’re eager to get started, and we have a bunch of iOS/Swift challenges!"
+  theme={
+    Object {
+      "container": "container src-shared-components-tc-communities-Banner-style___container___2NxGp2",
+      "content": "content src-shared-components-tc-communities-Banner-style___content___21lXOu",
+      "contentBg": "contentBg src-shared-components-tc-communities-Banner-style___contentBg___145Lnj",
+      "contentInner": "contentInner src-shared-components-tc-communities-Banner-style___contentInner___3w8VHp",
+      "link": "link",
+      "linkWrap": "linkWrap",
+      "text": "text src-shared-components-tc-communities-Banner-style___text___-lkXiG",
+      "title": "title src-shared-components-tc-communities-Banner-style___title___GMY8Vo",
+    }
+  }
+  title="iOS"
+/>
+`;

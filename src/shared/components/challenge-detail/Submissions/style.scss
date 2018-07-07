@@ -1,0 +1,168 @@
+@import "~styles/mixins";
+
+.container {
+  @include roboto-regular;
+
+  max-width: 1060px;
+  margin-left: auto;
+  margin-right: auto;
+
+  &.no-view {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0;
+
+    @include xs-to-sm {
+      padding: (10 * $base-unit) (5 * $base-unit);
+      text-align: center;
+    }
+
+    .title {
+      font-size: 42px;
+      font-weight: 300;
+      line-height: 30px;
+      color: $tc-black;
+      margin-bottom: 10px;
+      text-align: center;
+
+      @include xs-to-sm {
+        font-size: 28px;
+        line-height: 30px;
+      }
+    }
+
+    .subtitle {
+      font-size: 15px;
+      color: $tc-gray-90;
+      line-height: 25px;
+      margin-bottom: 30px;
+
+      @include xs-to-sm {
+        margin-left: 35px;
+        margin-right: 35px;
+      }
+    }
+
+    .desc {
+      font-size: 15px;
+      color: $tc-gray-50;
+      line-height: 25px;
+      width: 500px;
+
+      @include xs-to-sm {
+        margin-left: 28px;
+        margin-right: 28px;
+        width: auto;
+      }
+    }
+  }
+
+  &.view {
+    padding: 4 * $base-unit;
+
+    .title {
+      color: $tc-black;
+      margin-top: 20px;
+      margin-bottom: 6px;
+      margin-left: 20px;
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 500;
+      text-align: center;
+
+      @include xs-to-sm {
+        text-align: center;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .submission {
+      border: 1px solid $tc-gray-10;
+      margin: 0 14px 25px;
+      width: 227px;
+      font-size: 12px;
+
+      img {
+        width: 225px;
+        height: 226px;
+      }
+    }
+
+    .bottom-info {
+      background: #f7f7f7;
+      display: flex;
+      justify-content: space-between;
+      padding: 8px;
+      line-height: 20px;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+      font-weight: 500;
+    }
+
+    .handle {
+      color: $tc-orange;
+    }
+  }
+
+  &.dev {
+    padding: 30px 0;
+    line-height: 50px;
+    text-align: center;
+
+    .row {
+      color: $tc-gray-70;
+      display: flex;
+      border-bottom: 1px solid $tc-gray-10;
+      font-size: 15px;
+    }
+
+    .col-1 {
+      padding-left: 30px;
+      text-align: left;
+      width: 33%;
+    }
+
+    .col-2 {
+      width: 33%;
+    }
+
+    .col-3 {
+      width: 33%;
+    }
+
+    .handle {
+      color: $tc-dark-blue;
+    }
+  }
+}
+
+.head {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  padding-bottom: 14px;
+  color: $tc-gray-50;
+  display: flex;
+  border-bottom: 1px solid $tc-gray-10;
+
+  @include xs-to-sm {
+    display: none;
+  }
+}
+
+.lock {
+  fill: $tc-light-blue;
+  height: 136px;
+  margin-bottom: 30px;
+  width: 110px;
+}

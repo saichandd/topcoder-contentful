@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot match 1`] = `
+<div>
+  <withRouter(Connect(Routes)) />
+  <Connect(ErrorMessageContainer) />
+  <Connect(ErrorIconsContainer) />
+  <Connect(ReduxToastr)
+    position="top-center"
+    preventDuplicates={true}
+    progressBar={false}
+    transitionIn="fadeIn"
+    transitionOut="fadeOut"
+  />
+  <res />
+</div>
+`;
+
+exports[`Snapshot match 2`] = `
+<div>
+  <withRouter(Connect(Routes)) />
+  <Connect(ErrorMessageContainer) />
+  <Connect(ErrorIconsContainer) />
+  <Connect(ReduxToastr)
+    position="top-center"
+    preventDuplicates={true}
+    progressBar={false}
+    transitionIn="fadeIn"
+    transitionOut="fadeOut"
+  />
+  <res />
+</div>
+`;

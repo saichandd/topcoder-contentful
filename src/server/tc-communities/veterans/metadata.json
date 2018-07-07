@@ -1,0 +1,34 @@
+{
+  "challengeFilter": {
+    "groupIds": ["20000013"]
+  },
+  "challengeListing": {
+    "ignoreCommunityFilterByDefault": true
+  },
+  "communityId": "veterans",
+  "communityName": "Veterans Community",
+  "groupIds": ["20000013"],
+  "terms": [21193, 21263],
+  "logos": [{
+    "img": "/community-app-assets/themes/veterans/logo_topcoder_with_name.svg",
+    "url": "https://www.topcoder.com"
+  }],
+  "menuItems": [
+    {
+      "title": "Home",
+      "url": "/"
+    }, {
+      "title": "Learn",
+      "url": "/learn"
+    }, {
+      "title": "Challenges",
+      "url": "/challenges?communityId=veterans"
+    }
+  ],
+  "footerText": "© Copyright Topcoder Inc 2017",
+  "leaderboardApiUrl": "https://api.topcoder.com/v4/looks/458/run/json/",
+  "newsFeed": "http://www.topcoder.com/feed",
+  "subdomains": ["veterans"],
+  "description": "We help military service members and veterans transition to a career in technology on the world’s premier crowdsourcing platform.",
+  "image":"veterans.jpg"
+}

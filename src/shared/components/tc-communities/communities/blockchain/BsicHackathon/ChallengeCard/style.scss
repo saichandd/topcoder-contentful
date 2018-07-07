@@ -1,0 +1,80 @@
+@import "../../themes/mixins";
+
+.button {
+  margin: 20px 0 0 !important;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  // flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 60px;
+  text-align: left;
+  width: 100%;
+
+  @include xs-to-sm {
+    width: 100%;
+  }
+
+  a {
+    @include link;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+
+    li {
+      margin: 5px 0;
+    }
+  }
+
+  > * {
+    width: 48%;
+  }
+}
+
+.h1 {
+  @include h3;
+
+  // align-self: center;
+  margin-top: -5px;
+}
+
+.thumbnail {
+  // align-self: center;
+  width: 100%;
+
+  @include xs-to-sm {
+    width: 100%;
+  }
+}
+
+.content {
+  /*
+  display: flex;
+  justify-content: space-between;
+
+  @include xs-to-sm {
+    flex-direction: column;
+  }
+  */
+
+  h3 {
+    @include h3;
+
+    margin-top: 10px;
+  }
+
+  /*
+  > div {
+    width: 48%;
+
+    @include xs-to-sm {
+      width: 100%;
+    }
+  }
+  */
+}

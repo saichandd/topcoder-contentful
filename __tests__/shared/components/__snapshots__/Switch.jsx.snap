@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<Switch
+  enabled={false}
+  onSwitch={[Function]}
+  theme={
+    Object {
+      "disabled": "src-shared-components-Switch-style___disabled___EEAxIO",
+      "enabled": "src-shared-components-Switch-style___enabled___7dhGcX",
+      "handle": "src-shared-components-Switch-style___handle___3s_OOJ",
+      "switch": "src-shared-components-Switch-style___switch___nXk1O8",
+    }
+  }
+/>
+`;

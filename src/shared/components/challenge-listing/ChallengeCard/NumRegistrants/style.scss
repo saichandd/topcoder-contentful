@@ -1,0 +1,26 @@
+@import "~styles/mixins";
+
+.container {
+  display: inline-block;
+  font-weight: 400;
+}
+
+.link:hover {
+  color: $tc-dark-blue;
+}
+
+.number {
+  @include tc-label-sm;
+
+  color: inherit;
+  vertical-align: top;
+  padding-left: $base-unit - 3;
+}
+
+.tooltip {
+  font-weight: 500;
+  font-size: 13px;
+  color: $tc-white;
+  letter-spacing: 0;
+  padding: 15px;
+}

@@ -1,0 +1,113 @@
+@import '~styles/mixins';
+
+.menu {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+
+  @include xs-to-sm {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    padding: 46px 0 14px;
+    position: relative;
+  }
+}
+
+.item {
+  @include xs-to-sm {
+    margin-right: 15px;
+    margin-left: 15px;
+    line-height: 30px;
+  }
+}
+
+.item + .item {
+  margin-left: 78px;
+
+  @include xs-to-sm {
+    margin-left: 15px;
+  }
+}
+
+a.link,
+a.link:visited {
+  color: #a3a3ae;
+  font: 700 14px 'Open Sans', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.itemLogo {
+  @include xs-to-sm {
+    left: 50%;
+    line-height: normal;
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    transform: translateX(-50%);
+  }
+}
+
+.logo {
+  max-height: 30px;
+  width: auto;
+
+  @include xs-to-sm {
+    max-height: 20px;
+  }
+}
+
+.authorize {
+  display: none;
+  padding: 13px 0 12px;
+  text-align: center;
+
+  @include xs-to-md {
+    display: block;
+  }
+}
+
+.btnRegister {
+  border: 1px solid #60c700;
+  border-radius: 30px;
+  background: #60c700;
+  color: #fafafa;
+  display: inline-block;
+  font: 700 14px/30px 'Open Sans', sans-serif;
+  height: 32px;
+  outline: none;
+  text-transform: uppercase;
+  width: 100px;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    color: #fafafa;
+    text-decoration: none;
+  }
+}
+
+.btnLogin {
+  background: #0092ff;
+  border: 1px solid #0b71e6;
+  border-radius: 30px;
+  color: #fafafa;
+  display: inline-block;
+  font: 700 14px/30px 'Open Sans', sans-serif;
+  height: 32px;
+  margin-left: 60px;
+  outline: none;
+  text-transform: uppercase;
+  width: 100px;
+
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    color: #fafafa;
+    text-decoration: none;
+  }
+}

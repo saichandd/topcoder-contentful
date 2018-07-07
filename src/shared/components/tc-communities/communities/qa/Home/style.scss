@@ -1,0 +1,74 @@
+@import '~styles/mixins';
+
+.bannerText {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+
+  @include xs-to-sm {
+    line-height: 22px;
+  }
+}
+
+.bgBlue {
+  background: #bbd3f6 !important;
+  padding: 48px 24px !important;
+}
+
+.bgGray {
+  background: #f2f2f2 !important;
+  padding: 48px 24px !important;
+}
+
+.bgGreen {
+  background: #e2f3db !important;
+  padding: 48px 24px !important;
+}
+
+.bgYellow {
+  background: #fff8d4 !important;
+  padding: 48px 24px !important;
+}
+
+.highlighted {
+  color: $tc-gold;
+  font-weight: bold;
+}
+
+.statsContainer {
+  padding: 0;
+}
+
+.statsContent {
+  border-bottom: 1px solid #ddd;
+  padding: 43px 38px 50px;
+
+  @include xs-to-sm {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 12px 32px;
+  }
+}
+
+.resourcesContainer {
+  background-color: #fafafa;
+  padding: 70px 0;
+
+  @include xs-to-sm {
+    padding: 40px 0;
+  }
+}
+
+.resourcesContainer2 {
+  background-color: #fafafa;
+  padding: 0;
+}
+
+.linksContainer {
+  padding: 24px 0 60px;
+
+  @include xs-to-sm {
+    padding: 0;
+  }
+}

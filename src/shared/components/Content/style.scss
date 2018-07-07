@@ -1,0 +1,42 @@
+@import "~styles/mixins";
+
+.build-timestamp { @include tc-label-sm; }
+
+.container {
+  @include tc-body-md;
+
+  margin: auto;
+  padding: 24px;
+  max-width: $screen-md;
+
+  code {
+    background: whitesmoke;
+    font-family: monospace;
+    padding: 0 4px;
+  }
+
+  h1 {
+    @include tc-title;
+
+    margin: 18px 0 6px;
+  }
+
+  h3 {
+    @include tc-heading-md;
+
+    margin: 24px 0 6px;
+  }
+
+  li {
+    list-style-type: disc;
+    margin: 0 24px;
+
+    a {
+      color: $tc-dark-blue;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+}

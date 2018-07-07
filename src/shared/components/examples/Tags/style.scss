@@ -1,0 +1,42 @@
+@import "~styles/mixins";
+
+.page {
+  @include tc-body-md;
+
+  margin: auto;
+  max-width: $screen-md;
+  padding: 24px;
+
+  h1 {
+    margin: 18px 0 6px;
+  }
+
+  h3 {
+    margin: 18px 0 6px;
+  }
+
+  code {
+    background: whitesmoke;
+    padding: 2px 4px;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  p {
+    margin: $base-unit 0;
+  }
+}
+
+.btnXS {
+  @include btn-xs;
+}
+
+.btnSM {
+  @include btn-sm;
+}
+
+.btnLG {
+  @include btn-lg;
+}

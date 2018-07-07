@@ -1,0 +1,35 @@
+@import "~styles/mixins";
+
+.container {
+  margin: 0 auto;
+  max-width: $screen-md;
+  padding: 24px;
+
+  code {
+    background: whitesmoke;
+    font-family: monospace;
+    padding: 0 6px;
+  }
+
+  > h3 {
+    @include tc-heading-md;
+
+    margin: 18px 0 6px;
+  }
+}
+
+.small {
+  width: 20%;
+}
+
+.test-content {
+  height: 100%;
+  background: $tc-green;
+  width: 100%;
+}
+
+.title {
+  @include tc-title;
+
+  margin: 18px 0 6px;
+}

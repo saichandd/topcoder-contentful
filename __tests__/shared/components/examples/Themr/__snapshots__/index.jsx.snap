@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<div
+  className="src-shared-components-examples-Themr-___style__container___2Ztre"
+>
+  <h1
+    className="src-shared-components-examples-Themr-___style__title___3op29"
+  >
+    <code>
+      react-css-super-themr
+    </code>
+     
+    test/demo
+  </h1>
+  <h3>
+    Default theme
+  </h3>
+  <ThemedThemableComponent
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    mapThemrProps={[Function]}
+    themePriority="adhoc-context-default"
+  />
+  <h3>
+    Default theme + Parent-provided styling
+  </h3>
+  <ThemedThemableComponent
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    mapThemrProps={[Function]}
+    theme={
+      Object {
+        "box": "src-shared-components-examples-Themr-style___box___2VpH5M",
+        "container": "src-shared-components-examples-Themr-style___container___2Ztres",
+        "text": "src-shared-components-examples-Themr-style___text___3B1uOg",
+        "title": "src-shared-components-examples-Themr-style___title___3op293",
+      }
+    }
+    themePriority="adhoc-context-default"
+  />
+  <h3>
+    Default theme + Context styling
+  </h3>
+  <ThemeProvider
+    theme={
+      Object {
+        "ThemableComponent": Object {
+          "box": "src-shared-components-examples-Themr-contextStyle___box___Rvwpa3",
+          "text": "src-shared-components-examples-Themr-contextStyle___text___97Tblp",
+        },
+      }
+    }
+  >
+    <ThemedThemableComponent
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      mapThemrProps={[Function]}
+      themePriority="adhoc-context-default"
+    />
+  </ThemeProvider>
+  <h3>
+    Default theme + Context styling + Parent-provided styling
+  </h3>
+  <ThemeProvider
+    theme={
+      Object {
+        "ThemableComponent": Object {
+          "box": "src-shared-components-examples-Themr-contextStyle___box___Rvwpa3",
+          "text": "src-shared-components-examples-Themr-contextStyle___text___97Tblp",
+        },
+      }
+    }
+  >
+    <ThemedThemableComponent
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      mapThemrProps={[Function]}
+      theme={
+        Object {
+          "box": "src-shared-components-examples-Themr-style___box___2VpH5M",
+          "container": "src-shared-components-examples-Themr-style___container___2Ztres",
+          "text": "src-shared-components-examples-Themr-style___text___3B1uOg",
+          "title": "src-shared-components-examples-Themr-style___title___3op293",
+        }
+      }
+      themePriority="adhoc-context-default"
+    />
+  </ThemeProvider>
+  <h3>
+    Default theme + Context styling, inject async with 3 sec delay
+  </h3>
+  <p>
+    When you look into the source code, pay attention to the change of key property of ThemeProvider!
+  </p>
+  <ThemeProvider
+    theme={
+      Object {
+        "box": "src-shared-components-examples-Themr-style___box___2VpH5M",
+        "container": "src-shared-components-examples-Themr-style___container___2Ztres",
+        "text": "src-shared-components-examples-Themr-style___text___3B1uOg",
+        "title": "src-shared-components-examples-Themr-style___title___3op293",
+      }
+    }
+  >
+    <ThemedThemableComponent
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      mapThemrProps={[Function]}
+      themePriority="adhoc-context-default"
+    />
+  </ThemeProvider>
+  <h3>
+    Test of nested theme providers.
+  </h3>
+  <p>
+    The external theme provider tries to set the same theme as in the ‌
+    <em>
+      Default theme + Parent-provided styling
+    </em>
+     
+    example, and the innter one tries to set the same theme as in the
+     
+    <em>
+      Default theme + Context styling
+       
+    </em>
+     
+    example. The question is, which will win with the current version of react-css-super-themr?
+  </p>
+  <ThemeProvider
+    theme={Object {}}
+  >
+    <ThemeProvider
+      theme={
+        Object {
+          "ThemableComponent": Object {
+            "box": "src-shared-components-examples-Themr-contextStyle___box___Rvwpa3",
+            "text": "src-shared-components-examples-Themr-contextStyle___text___97Tblp",
+          },
+        }
+      }
+    >
+      <ThemedThemableComponent
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        mapThemrProps={[Function]}
+        themePriority="adhoc-context-default"
+      />
+    </ThemeProvider>
+  </ThemeProvider>
+</div>
+`;

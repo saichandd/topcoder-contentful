@@ -1,0 +1,57 @@
+@import "~styles/mixins";
+
+@mixin page {
+  margin: auto;
+  max-width: $screen-lg;
+  padding: 0 30px;
+}
+
+@mixin body-text {
+  color: #73787c;
+  font: 15px/180% 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+@mixin h1 {
+  color: #394146;
+  font: 600 36px 'Open Sans', sans-serif;
+  margin-bottom: 12px;
+}
+
+@mixin h3 {
+  color: #394146;
+  font: 600 20px/150% 'Open Sans', sans-serif;
+  margin-bottom: 12px;
+  max-height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @include md {
+    font-size: 16px;
+  }
+}
+
+@mixin h4 {
+  color: #394146;
+  font: 600 16px/150% 'Open Sans', sans-serif;
+  max-height: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @include md {
+    font-size: 16px;
+  }
+}
+
+@mixin link {
+  &,
+  &:active,
+  &:focus,
+  &:hover {
+    color: #0092ff;
+  }
+
+  &:visited {
+    color: $tc-purple;
+  }
+}

@@ -1,0 +1,242 @@
+@import '~styles/mixins';
+$challenge-space-10: $base-unit * 2;
+$challenge-space-15: $base-unit * 3;
+$challenge-space-20: $base-unit * 4;
+$challenge-space-30: $base-unit * 6;
+$challenge-space-40: $base-unit * 8;
+$challenge-space-45: $base-unit * 9;
+$challenge-space-50: $base-unit * 10;
+$challenge-space-90: $base-unit * 18;
+$challenge-radius-1: $corner-radius / 2;
+$challenge-radius-4: $corner-radius * 2;
+
+.challengeCard {
+  @include roboto-medium;
+
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  background: $tc-white;
+  padding: $challenge-space-20;
+  border-top: 1px solid $tc-gray-10;
+  color: $tc-black;
+  font-size: 15px;
+
+  &:last-child {
+    border-bottom: 1px solid $tc-gray-10;
+  }
+
+  @include xs-to-md {
+    flex-wrap: wrap;
+    padding: $base-unit * 3;
+  }
+
+  @include xs-to-sm {
+    position: relative;
+  }
+
+  a,
+  a:visited {
+    color: $tc-black;
+  }
+
+  a:hover {
+    color: $tc-dark-blue;
+  }
+
+  .left-panel {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+
+    @include xs-to-md {
+      width: 100%;
+    }
+  }
+
+  .right-panel {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+
+    @include xs-to-md {
+      width: 100%;
+    }
+
+    @include xs-to-sm {
+      display: block;
+    }
+  }
+
+  // Challenge track icon
+  .challenge-track {
+    display: inline-block;
+    vertical-align: top;
+
+    > span:first-child {
+      display: inline-block;
+    }
+  }
+
+  // Challenge title, end date & technologies
+  .challenge-details {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 82%;
+    margin-right: $challenge-space-30;
+
+    @include md {
+      margin-right: $challenge-space-90;
+    }
+
+    @include xs-to-sm {
+      margin-right: 0;
+    }
+
+    &.with-register-button {
+      @include md {
+        margin-right: 180px;
+      }
+    }
+
+    a {
+      line-height: $challenge-space-20;
+
+      @include xs-to-sm {
+        display: inline-block;
+      }
+    }
+  }
+  // date and technologies
+  .details-footer {
+    margin-top: $challenge-space-10;
+
+    .date {
+      font-size: 12px;
+      color: $tc-gray-60;
+      margin-right: $challenge-space-10;
+      line-height: ($challenge-space-10) + 2;
+      font-weight: normal;
+    }
+
+    .technology {
+      @include roboto-medium;
+
+      display: inline-block;
+      text-align: center;
+      padding: 0 $base-unit + 2;
+      line-height: $challenge-space-20;
+      background: $tc-gray-neutral-dark;
+      font-size: 11px;
+      color: $tc-gray-80;
+      margin-right: $base-unit;
+      border-radius: $corner-radius + 2;
+      height: $challenge-space-20;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+
+    .technology:hover {
+      background: $tc-dark-blue-30;
+    }
+  }
+
+  // Challenge prizes
+  .prizes {
+    display: inline-flex;
+    font-size: 13px;
+    font-weight: 700;
+    color: $tc-black;
+    line-height: $challenge-space-20;
+    margin-right: $challenge-space-20;
+    min-width: $challenge-space-50 + 2;
+
+    @include xs-to-md {
+      position: absolute;
+      right: 0;
+      top: 20px;
+      margin-right: $challenge-space-20;
+    }
+
+    @include xs-to-sm {
+      position: relative;
+      width: 100%;
+      margin-top: $challenge-space-20;
+      padding-left: $challenge-space-50;
+      top: 0;
+    }
+
+    &.with-register-button {
+      @include md {
+        right: 108px;
+      }
+    }
+
+    > div:nth-child(2) {
+      margin-left: $challenge-space-10;
+    }
+
+    > span:first-child {
+      display: inline-block;
+    }
+
+    > span:first-child > div {
+      @include xs-to-sm {
+        display: inline-block;
+      }
+    }
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+.challengeCard.placeholder {
+  .challenge-track {
+    width: $base-unit * 6;
+    height: $base-unit * 6;
+  }
+
+  .challenge-title {
+    height: $base-unit * 8;
+    margin-left: $base-unit * 2;
+  }
+
+  .details-footer {
+    height: $base-unit * 4;
+    margin-left: $base-unit * 2;
+  }
+
+  .prizes {
+    height: $base-unit * 10;
+    width: $base-unit * 13;
+  }
+
+  .challenge-status {
+    display: flex;
+    width: 77.7%;
+  }
+
+  .progress-container {
+    height: $base-unit * 10;
+    width: $base-unit * 36;
+  }
+
+  .challenge-stats-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+
+  .challenge-stats {
+    width: $base-unit * 10;
+    height: $base-unit * 6;
+    margin-left: $base-unit * 4;
+  }
+
+  .placeholder-template {
+    background: $tc-gray-10;
+    border-radius: $corner-radius;
+  }
+}

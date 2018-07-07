@@ -1,0 +1,42 @@
+@import "~styles/mixins";
+
+.active {
+  background: $tc-gray-10;
+  cursor: default;
+  font-weight: 600;
+
+  @include xs-to-sm {
+    background: $tc-white;
+  }
+}
+
+.bucket {
+  color: $tc-black;
+  border-radius: 2 * $corner-radius;
+  cursor: pointer;
+  outline: none;
+  padding: 0 2 * $base-unit 0 3 * $base-unit;
+
+  @include xs-to-sm {
+    font-size: 15px;
+    padding: 2px 0;
+  }
+}
+
+.right {
+  color: $tc-gray-50;
+  float: right;
+  position: static;
+  font-weight: 700;
+}
+
+.errorMsg {
+  color: $tc-red;
+  line-height: 13px;
+  padding-bottom: 6px;
+  display: none;
+}
+
+.active .errorMsg {
+  display: block;
+}

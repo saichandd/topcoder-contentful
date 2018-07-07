@@ -1,0 +1,23 @@
+@import "~styles/mixins";
+
+.label {
+  cursor: default;
+  padding: 0 (2 * $base-unit);
+  background: $tc-gray-neutral-light;
+  font-size: 10px;
+  color: $tc-gray-70;
+  white-space: nowrap;
+
+  @include xs-to-sm {
+    display: inline-block;
+  }
+}
+
+.prize {
+  cursor: default;
+}
+
+.symbol {
+  display: inline-block;
+  color: $tc-gray-50;
+}

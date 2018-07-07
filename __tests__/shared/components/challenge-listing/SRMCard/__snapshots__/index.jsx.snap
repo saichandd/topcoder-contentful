@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<StaticRouter
+  basename=""
+  context={Object {}}
+  location="/"
+>
+  <SRMCard
+    category="now"
+    srmChallenge={Object {}}
+  />
+</StaticRouter>
+`;
+
+exports[`Matches shallow shapshot 2`] = `
+<StaticRouter
+  basename=""
+  context={Object {}}
+  location="/"
+>
+  <SRMCard
+    category="upcoming"
+    srmChallenge={Object {}}
+  />
+</StaticRouter>
+`;
+
+exports[`Matches shallow shapshot 3`] = `
+<StaticRouter
+  basename=""
+  context={Object {}}
+  location="/"
+>
+  <SRMCard
+    category="past"
+    srmChallenge={Object {}}
+  />
+</StaticRouter>
+`;

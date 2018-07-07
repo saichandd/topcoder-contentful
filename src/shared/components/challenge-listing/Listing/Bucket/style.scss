@@ -1,0 +1,28 @@
+@import "~styles/mixins";
+
+.bucket {
+  background: $tc-gray-neutral-light;
+  margin: 20px 0;
+}
+
+.view-more,
+.view-more:active,
+.view-more:focus,
+.view-more:hover,
+.view-more:visited {
+  background: $tc-gray-neutral-light;
+  border-top: 1px solid $tc-gray-10;
+  border-bottom: 1px solid $tc-gray-10;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  color: $tc-gray-50;
+  cursor: pointer;
+  display: block;
+  font: 300 13px Arial, sans-serif;
+  outline: none;
+  padding: 12px 0;
+  text-align: center;
+  text-transform: none;
+  width: 100%;
+}

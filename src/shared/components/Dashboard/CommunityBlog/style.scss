@@ -1,0 +1,41 @@
+@import "~styles/mixins";
+
+.container {
+  padding: 60px 0 30px;
+}
+
+.content {
+  display: flex;
+  padding: 10px 20px;
+
+  @include xs-to-sm {
+    flex-direction: column;
+  }
+}
+
+.link {
+  color: $tc-dark-blue-110;
+
+  &:active,
+  &:visited {
+    color: $tc-dark-blue-110;
+  }
+
+  &:hover {
+    color: $tc-dark-blue-70;
+  }
+}
+
+.linksContainer {
+  @include tc-body-md;
+
+  padding: 20px 20px 0;
+  text-align: center;
+}
+
+.title {
+  @include tc-heading-lg;
+
+  padding: 0 30px 20px;
+  text-align: center;
+}

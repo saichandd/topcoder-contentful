@@ -1,0 +1,20 @@
+@import '~styles/mixins';
+
+.container {
+  @include roboto-regular;
+
+  flex: 1;
+  flex-direction: column;
+  min-height: 400px;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.details {
+  text-align: center;
+}
+
+.message {
+  margin-bottom: 24px;
+  text-align: center;
+}

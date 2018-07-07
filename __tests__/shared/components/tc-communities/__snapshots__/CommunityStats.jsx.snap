@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot match 1`] = `
+<ThemedSection
+  anchor={null}
+  composeAdhocTheme="deeply"
+  composeContextTheme="softly"
+  link={null}
+  mapThemrProps={[Function]}
+  subTitle=""
+  theme={
+    Object {
+      "container": "src-shared-components-tc-communities-CommunityStats-style___container___3IKHhw",
+      "content": "src-shared-components-tc-communities-CommunityStats-style___content___ZqVgq1",
+    }
+  }
+  themePriority="adhoc-context-default"
+  title={null}
+>
+  <ThemedIconStat
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    icon={[Function]}
+    label="Challenges"
+    mapThemrProps={[Function]}
+    number={10}
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+  />
+  <ThemedIconStat
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    icon={[Function]}
+    label="Members"
+    mapThemrProps={[Function]}
+    number={20}
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+  />
+  <ThemedIconStat
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    icon={[Function]}
+    label="Projects"
+    mapThemrProps={[Function]}
+    number={30}
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+  />
+  <ThemedIconStat
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    icon={[Function]}
+    label="Prizes"
+    mapThemrProps={[Function]}
+    number={40}
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+  />
+</ThemedSection>
+`;
+
+exports[`Snapshot match 2`] = `null`;

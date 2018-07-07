@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shallow shapshot 1`] = `
+<div>
+  <ThemedButton
+    active={false}
+    className=""
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    disabled={false}
+    enforceA={false}
+    mapThemrProps={[Function]}
+    onClick={[Function]}
+    onMouseDown={null}
+    openNewTab={false}
+    replace={false}
+    size={null}
+    themePriority="adhoc-context-default"
+    to={null}
+    type="button"
+  >
+    Join Community
+  </ThemedButton>
+  <ConfirmModal
+    communityName="ios"
+    customTcAuthModalText=""
+    groupIds={
+      Array [
+        "",
+      ]
+    }
+    join={[MockFunction]}
+    joinGroupId=""
+    resetJoinButton={[MockFunction]}
+    skipConfirmJoin={false}
+    token="token"
+    userId="useId"
+  />
+</div>
+`;
+
+exports[`Matches shallow shapshot 2`] = `
+<div>
+  <ThemedButton
+    active={false}
+    className="src-shared-components-tc-communities-JoinCommunity-style___joining___rq-m2x"
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    disabled={false}
+    enforceA={false}
+    mapThemrProps={[Function]}
+    onClick={[Function]}
+    onMouseDown={null}
+    openNewTab={false}
+    replace={false}
+    size={null}
+    themePriority="adhoc-context-default"
+    to={null}
+    type="button"
+  >
+    <div
+      className="src-shared-components-tc-communities-JoinCommunity-style___joiningContainer___2P4Cvw"
+    >
+      <span>
+        Joining...
+      </span>
+      <ThemedLoadingIndicator
+        composeAdhocTheme="deeply"
+        composeContextTheme="softly"
+        mapThemrProps={[Function]}
+        theme={
+          Object {
+            "container": "src-shared-components-tc-communities-JoinCommunity-style___loadingIndicator___2RP1uY",
+          }
+        }
+        themePriority="adhoc-context-default"
+      />
+    </div>
+  </ThemedButton>
+</div>
+`;
+
+exports[`Matches shallow shapshot 3`] = `
+<div
+  className="src-shared-components-tc-communities-JoinCommunity-___style__placeholder___1XfW2"
+>
+  
+</div>
+`;
+
+exports[`Matches shallow shapshot 4`] = `
+<div>
+  <ThemedButton
+    active={false}
+    className=""
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    disabled={false}
+    enforceA={false}
+    mapThemrProps={[Function]}
+    onClick={[Function]}
+    onMouseDown={null}
+    openNewTab={false}
+    replace={false}
+    size={null}
+    themePriority="adhoc-context-default"
+    to={null}
+    type="button"
+  >
+    Join Community
+  </ThemedButton>
+  <ThemedModal
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    mapThemrProps={[Function]}
+    onCancel={[MockFunction]}
+    theme={Object {}}
+    themePriority="adhoc-context-default"
+  >
+    <h1
+      className="src-shared-components-tc-communities-JoinCommunity-___style__modalTitle___1U_iw"
+    >
+      Congratulations!
+    </h1>
+    <p
+      className="src-shared-components-tc-communities-JoinCommunity-___style__modalMsg___25f_a"
+    >
+      You have joined the ios!
+    </p>
+    <ThemedButton
+      active={false}
+      composeAdhocTheme="deeply"
+      composeContextTheme="softly"
+      disabled={false}
+      enforceA={false}
+      mapThemrProps={[Function]}
+      onClick={[MockFunction]}
+      onMouseDown={null}
+      openNewTab={false}
+      replace={false}
+      size={null}
+      theme={
+        Object {
+          "button": "src-shared-components-tc-communities-JoinCommunity-style___returnToCommunityButton___1YlEiP",
+        }
+      }
+      themePriority="adhoc-context-default"
+      to={null}
+      type="button"
+    >
+      Return to the Community
+    </ThemedButton>
+  </ThemedModal>
+</div>
+`;
+
+exports[`Matches shallow shapshot 5`] = `
+<div>
+  <ThemedButton
+    active={false}
+    className=""
+    composeAdhocTheme="deeply"
+    composeContextTheme="softly"
+    disabled={false}
+    enforceA={false}
+    mapThemrProps={[Function]}
+    onClick={[Function]}
+    onMouseDown={null}
+    openNewTab={false}
+    replace={false}
+    size={null}
+    themePriority="adhoc-context-default"
+    to={null}
+    type="button"
+  >
+    Join Community
+  </ThemedButton>
+  <ConfirmModal
+    communityName="ios"
+    customTcAuthModalText=""
+    groupIds={
+      Array [
+        "",
+      ]
+    }
+    join={[MockFunction]}
+    joinGroupId=""
+    resetJoinButton={[MockFunction]}
+    skipConfirmJoin={false}
+    token={null}
+    userId="useId"
+  />
+</div>
+`;

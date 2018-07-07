@@ -1,0 +1,45 @@
+{
+  "challengeFilter": {
+    "groupIds": ["20000015"],
+    "or": [{
+      "tags": ["Cognitive", "IBM Cognitive", "IBM Watson"]
+    }]
+  },
+  "challengeListing": {
+    "openChallengesInNewTabs": false
+  },
+  "communityId": "cognitive",
+  "communityName": "Topcoder Cognitive Community",
+  "groupIds": ["20000015"],
+  "logos": [{
+    "img": "/community-app-assets/themes/cognitive/logo_topcoder_with_name.svg",
+    "url": "https://www.topcoder.com"
+  }],
+  "hideSearch": true,
+  "menuItems": [
+    {
+      "title": "Home",
+      "url": "/"
+    },
+    {
+      "title": "Get Started",
+      "url": "/get-started"
+    },
+    {
+      "title": "IBM Cloud",
+      "url": "/ibm-cloud"
+    },
+    {
+      "title": "Resources",
+      "url": "/resources"
+    },
+    {
+      "title": "Compete",
+      "url": "/challenges"
+    }
+  ],
+  "newsFeed": "http://www.topcoder.com/feed",
+  "subdomains": ["cognitive"],
+  "description": "Join the world’s premier cognitive community and get hands-on experience with today’s most cutting-edge technologies and business challenges.",
+  "image":"cognitive.jpg"
+}

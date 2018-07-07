@@ -1,0 +1,12 @@
+@import "~styles/mixins";
+
+.container {
+  border: 1px solid $tc-purple;
+  margin: 10px 0;
+  padding: 10px 20px 20px;
+}
+
+.title {
+  color: $tc-purple;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Matches shapshot 1`] = `
+<LeaderboardPageContainer
+  HeadBanner={null}
+  apiUrl="http://www.mocky.io/v2/59098e60100000b60747c10b"
+  auth={null}
+  isLoadingLeaderboard={false}
+  leaderboardData={
+    Array [
+      Object {
+        "avatarUrl": "some.fake.string",
+        "challenge_stats.count": 99999,
+        "challenge_stats.winner_handle": "overachieving.mofo",
+        "project_result.final_score": 9999999999,
+        "rank": 1,
+      },
+      Object {
+        "avatarUrl": "some.fake.string",
+        "challenge_stats.count": 99999,
+        "challenge_stats.winner_handle": "overachieving.mofo",
+        "project_result.final_score": 9999999999,
+        "rank": 1,
+      },
+      Object {
+        "avatarUrl": "some.fake.string",
+        "challenge_stats.count": 99999,
+        "challenge_stats.winner_handle": "overachieving.mofo",
+        "project_result.final_score": 9999999999,
+        "rank": 1,
+      },
+      Object {
+        "avatarUrl": "some.fake.string",
+        "challenge_stats.count": 99999,
+        "challenge_stats.winner_handle": "overachieving.mofo",
+        "project_result.final_score": 9999999999,
+        "rank": 1,
+      },
+    ]
+  }
+  loadLeaderboard={[Function]}
+  loadedApiUrl={null}
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "subscribe": [Function],
+    }
+  }
+  storeSubscription={
+    Subscription {
+      "listeners": Object {
+        "notify": [Function],
+      },
+      "onStateChange": [Function],
+      "parentSub": undefined,
+      "store": Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "subscribe": [Function],
+      },
+      "unsubscribe": null,
+    }
+  }
+/>
+`;
